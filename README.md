@@ -9,7 +9,8 @@
 ## List of module
 
 * Person keypoint detection: [Kapao](https://github.com/wmcnally/kapao) 
-  - Convert to TensorRT
+  - Convert to Onnx [modification to convert](https://github.com/DuongHungCuong/kapao)
+  - Convert to TensorRT [TensorRT-Yolo](https://github.com/Linaom1214/TensorRT-For-YOLO-Series)
 * Tracking: [SORT](https://github.com/abewley/sort) 
   - Save keypoints to person-track
 * Skeleton-based action recognition: [ST-GCN](https://arxiv.org/pdf/1801.07455.pdf) 
