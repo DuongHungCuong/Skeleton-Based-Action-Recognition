@@ -1,0 +1,11 @@
+video_path: ~/Computer_vision_projects/ActionRecognition/Kapao_STGCN/data/video4.mp4
+output_video_path: ~/Computer_vision_projects/ActionRecognition/Kapao_STGCN/data/video4_result_trt.mp4
+
+detection:
+  model_path: ~/Computer_vision_projects/ActionRecognition/Kapao_STGCN/weights/kapao/kapao_s_coco_1280_3.trt
+  cfg_path: ./detection_keypoint/coco-kp.yaml
+
+action_recognition:
+  model_path: ~/Computer_vision_projects/ActionRecognition/Kapao_STGCN/weights/stgcn/tsstg-model.pth
+
+device: 'cuda:0'
