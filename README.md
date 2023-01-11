@@ -8,9 +8,12 @@
 ****
 ## List of module
 
-* Person keypoint detection: [Kapao](https://github.com/wmcnally/kapao)
-* Tracking: [SORT](https://github.com/abewley/sort)
-* Skeleton-based action recognition: [ST-GCN](https://arxiv.org/pdf/1801.07455.pdf)
+* Person keypoint detection: [Kapao](https://github.com/wmcnally/kapao) 
+  - Convert to TensorRT
+* Tracking: [SORT](https://github.com/abewley/sort) 
+  - Save keypoints to person-track
+* Skeleton-based action recognition: [ST-GCN](https://arxiv.org/pdf/1801.07455.pdf) 
+  - Haven't converted to TensorRT because of some unsupported layers
 
 ****
 ## Install
