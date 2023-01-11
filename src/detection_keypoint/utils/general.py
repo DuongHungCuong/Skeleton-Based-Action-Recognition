@@ -27,10 +27,10 @@ import torch
 import torchvision
 import yaml
 
-from utils.downloads import gsutil_getsize
-from utils.metrics import box_iou, fitness
-from utils.torch_utils import init_torch_seeds
-from utils.labels import write_kp_labels
+from .downloads import gsutil_getsize
+from .metrics import box_iou, fitness
+from .torch_utils import init_torch_seeds
+from .labels import write_kp_labels
 
 # Settings
 torch.set_printoptions(linewidth=320, precision=5, profile='long')
