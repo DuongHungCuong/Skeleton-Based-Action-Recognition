@@ -8,7 +8,7 @@ from tracking.sort_w_keypoints import Sort
 from action_recognition.stgcn import TSSTG
 from miscellaneous_utils.mis_utils import load_config
 
-config_path = 'configs/configs.yml'
+config_path = '../configs/configs.yml'
 configs = load_config(config_path)
 
 kp_model_path = configs['detection']['model_path']
@@ -75,6 +75,3 @@ writer.release()
 
 print(f'MEAN FPS KAPAO: {fps1/n1}')
 print(f'MEAN FPS STGCN: {fps2/n2}')
-
-
-
